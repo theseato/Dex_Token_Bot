@@ -1,10 +1,12 @@
 # Dex_Token_Bot
 
 简介
+
 一个基于 web3.js 的 DEX 抢币工具
 采用FullNode API服务商提供的Api，https://app.ankr.com （如ETH 推荐Alchemy 等）
 
 实现方法
+
 监听Dex流程池交易对的PairCreated 链事件 - 即交易的流动对
 实现自动 Dex 授权
 实现自动购买 Token
