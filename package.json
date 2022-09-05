@@ -1,0 +1,25 @@
+{
+    "name": "dex-token-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon ./src/index.js",
+      "flash": "nodemon ./src/flashtest.js",
+      "run": "nodemon ./src/alchemyrun.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "alchemy-sdk": "^2.0.3",
+      "dayjs": "^1.11.4",
+      "dotenv": "^16.0.1",
+      "log4js": "^6.6.1",
+      "nodemon": "^2.0.19",
+      "npm": "^8.18.0",
+      "web3": "^1.7.5",
+      "ws": "^8.8.1"
+    }
+  }
